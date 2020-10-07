@@ -2,7 +2,7 @@
 - type:
     - feat
     - feature
-  section: Features
+  section: Featurettes
   release: minor
 - type: fix
   section: Bug Fixes
