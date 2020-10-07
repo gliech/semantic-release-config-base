@@ -1,0 +1,46 @@
+---
+- type:
+    - feat
+    - feature
+  section: Features
+  release: minor
+- type: fix
+  section: Bug Fixes
+  release: patch
+- type: perf
+  section: Performance Improvements
+  release: patch
+- type: revert
+  section: Reverts
+  release: patch
+- type: docs
+  section: Documentation
+  release: false
+- type: style
+  section: Styles
+  release: false
+- type: chore
+  section: Miscellaneous Chores
+  release: false
+  hidden: true
+- type: refactor
+  section: Code Refactoring
+  release: patch
+- type:
+    - test
+    - tests
+  section: Tests
+  release: false
+- type: build
+  section: Build System
+  release: false
+- type: ci
+  section: Continuous Integration
+  release: false
+- type: deps
+  section: Dependency Updates
+  release: patch
+- type: amend
+  section: Feature Amendments
+  release: patch
+  hidden: true

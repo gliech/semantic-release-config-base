@@ -1,0 +1,27 @@
+{
+  "name": "@gliech/semantic-release-config-core",
+  "version": "0.0.0-development",
+  "description": "shared datastructures for other semantic-release shareable configurations",
+  "repository": "github:gliech/semantic-release-config-core",
+  "author": "gliech",
+  "license": "BSD-4-Clause",
+  "main": "index.js",
+  "keywords": [],
+  "dependencies": {
+    "handlebars": "^4.7.6",
+    "js-yaml": "^3.14.0",
+    "nunjucks": "^3.2.2"
+  },
+  "devDependencies": {
+    "semantic-release": "^17.0.0",
+    "@semantic-release/commit-analyzer": "^8.0.0",
+    "@semantic-release/release-notes-generator": "^9.0.0",
+    "@semantic-release/changelog": "^5.0.0",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/github": "^7.0.0",
+    "conventional-changelog-conventionalcommits": "^4.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

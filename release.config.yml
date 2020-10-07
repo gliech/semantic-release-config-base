@@ -1,0 +1,17 @@
+---
+plugins:
+  - - "@semantic-release/commit-analyzer"
+    - preset: conventionalcommits
+      releaseRules:  # {{ release_rules | dump }}
+  - - "@semantic-release/release-notes-generator"
+    - preset: conventionalcommits
+      writerOpts:  # {{ templates | dump }}
+      presetConfig:
+        types:  # {{ note_generator_rules | dump }}
+  - - "@semantic-release/changelog"
+    - changelogFile: CHANGELOG.md
+  - - "@semantic-release/git"
+    - message: # {{ commit_msg | dump }}
+      assets:
+        - CHANGELOG.md
+  - "@semantic-release/github"
