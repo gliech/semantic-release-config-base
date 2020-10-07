@@ -8,18 +8,13 @@
   "main": "index.js",
   "keywords": [],
   "dependencies": {
-    "handlebars": "^4.7.6",
     "js-yaml": "^3.14.0",
     "nunjucks": "^3.2.2"
   },
   "devDependencies": {
     "semantic-release": "^17.0.0",
-    "@semantic-release/commit-analyzer": "^8.0.0",
-    "@semantic-release/release-notes-generator": "^9.0.0",
-    "@semantic-release/changelog": "^5.0.0",
-    "@semantic-release/git": "^9.0.0",
-    "@semantic-release/github": "^7.0.0",
-    "conventional-changelog-conventionalcommits": "^4.0.0"
+    "@gliech/semantic-release-config-core": "file:./",
+    "@gliech/semantic-release-generic-github-config": "file:../semantic-release-generic-github-config"
   },
   "publishConfig": {
     "access": "public"

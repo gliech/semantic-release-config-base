@@ -18,8 +18,6 @@ var core_config = {
   release_rules: [],
   note_generator_rules: [],
   templates: {},
-  commit_msg: fs.readFileSync(
-    path.resolve(__dirname, "commit_message.tmpl"), {encoding: "utf-8"})
 }
 
 for (var commit_type of commit_types) {
@@ -45,10 +43,6 @@ for (var template of fs.readdirSync(path.resolve(__dirname, template_dir))) {
     path.resolve(__dirname, template_dir, template), {encoding: "utf-8"})
 }
 
-const config_location = path.resolve(module.parent.path, "release.config.yml")
-
-module.exports = (extra_data = {}) => {
-  const data = {...core_config, ...extra_data}
-  const expanded_config = nunjucks.render(config_location, data)
-  return yaml.load(expanded_config)
-}
+const config_location = path.resolve(__dirname, "shareable_config.yml")
+const expanded_config = nunjucks.render(config_location, core_config)
+module.exports = yaml.load(expanded_config)

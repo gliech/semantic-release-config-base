@@ -1,0 +1,13 @@
+---
+preset: conventionalcommits
+presetConfig:
+  types:  # {{ note_generator_rules | dump }}
+releaseRules:  # {{ release_rules | dump }}
+writerOpts:  # {{ templates | dump }}
+changelogFile: CHANGELOG.md
+message: |
+  chore(release): ${nextRelease.version}
+
+  ${nextRelease.notes}
+assets:
+  - CHANGELOG.md
