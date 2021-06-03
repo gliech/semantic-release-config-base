@@ -8,7 +8,7 @@
   "main": "index.js",
   "keywords": [],
   "dependencies": {
-    "js-yaml": "^3.14.0",
+    "js-yaml": "^4.1.0",
     "nunjucks": "^3.2.2"
   },
   "peerDependencies": {
