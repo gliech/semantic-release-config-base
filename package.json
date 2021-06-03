@@ -11,10 +11,15 @@
     "js-yaml": "^3.14.0",
     "nunjucks": "^3.2.2"
   },
+  "peerDependencies": {
+    "semantic-release": "17"
+  },
   "devDependencies": {
-    "semantic-release": "^17.0.0",
-    "@gliech/semantic-release-config-core": "file:./",
-    "@gliech/semantic-release-generic-github-config": "file:../semantic-release-generic-github-config"
+    "semantic-release": "17",
+    "@semantic-release/changelog": "5",
+    "@semantic-release/git": "9",
+    "conventional-changelog-conventionalcommits": "4",
+    "@gliech/semantic-release-config-base": "file:./"
   },
   "publishConfig": {
     "access": "public"
