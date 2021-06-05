@@ -1,8 +1,8 @@
 {
-  "name": "@gliech/semantic-release-config-core",
+  "name": "@gliech/semantic-release-config-base",
   "version": "0.0.0-development",
   "description": "shared datastructures for other semantic-release shareable configurations",
-  "repository": "github:gliech/semantic-release-config-core",
+  "repository": "github:gliech/semantic-release-config-base",
   "author": "gliech",
   "license": "BSD-4-Clause",
   "main": "index.js",
