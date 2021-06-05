@@ -1,5 +1,5 @@
 ---
-extends: "@gliech/semantic-release-config-core"
+extends: "@gliech/semantic-release-config-base"
 plugins:
   - "@semantic-release/commit-analyzer"
   - "@semantic-release/release-notes-generator"
