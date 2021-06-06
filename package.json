@@ -22,7 +22,6 @@
     "semantic-release": "17"
   },
   "devDependencies": {
-    "@gliech/semantic-release-config-base": "file:./",
     "@gliech/semantic-release-config-github-npm": "1",
     "@semantic-release/changelog": "5",
     "@semantic-release/git": "9",
