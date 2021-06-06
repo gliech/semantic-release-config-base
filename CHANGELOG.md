@@ -1,3 +1,15 @@
+## [1.0.1](https://github.com/gliech/semantic-release-config-base/compare/v1.0.0...v1.0.1) (2021-06-06)
+
+
+### Bug Fixes
+
+* move conventionalcommits package from devdeps to deps ([3e63265](https://github.com/gliech/semantic-release-config-base/commit/3e63265a9386646d3316c23eef2b94c9b9812a6f))
+
+
+### Build System
+
+* include only necessary files in the published package ([b0472ba](https://github.com/gliech/semantic-release-config-base/commit/b0472ba8744c4db97bcc28f6da85cd4e4ade2b60))
+
 # 1.0.0 (2021-06-05)
 
 
