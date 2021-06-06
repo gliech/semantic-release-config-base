@@ -6,6 +6,12 @@
   "author": "gliech",
   "license": "BSD-4-Clause",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "note_generator_templates/",
+    "shareable_config.yml",
+    "commit_types.yml"
+  ],
   "keywords": [],
   "dependencies": {
     "conventional-changelog-conventionalcommits": "4",
