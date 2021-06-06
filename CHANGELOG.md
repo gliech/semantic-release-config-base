@@ -1,3 +1,20 @@
+## [1.0.2](https://github.com/gliech/semantic-release-config-base/compare/v1.0.1...v1.0.2) (2021-06-06)
+
+
+### Continuous Integration
+
+* **semrel:** replace custom plugin list with  semantic-release-config-github-npm ([3f4dccc](https://github.com/gliech/semantic-release-config-base/commit/3f4dccc9a57d31d68ee5624e4cd6c31835caebd2))
+
+
+### Build System
+
+* **deps:** remove dependency on self ([22062a6](https://github.com/gliech/semantic-release-config-base/commit/22062a6da266c4afec51288b49394a0703fca5ed))
+
+
+### Code Refactoring
+
+* remove dependency on nunjucks ([f0748d0](https://github.com/gliech/semantic-release-config-base/commit/f0748d0ced22eff34a819f9b1ef390ea71e6a67b))
+
 ## [1.0.1](https://github.com/gliech/semantic-release-config-base/compare/v1.0.0...v1.0.1) (2021-06-06)
 
 
