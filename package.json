@@ -22,10 +22,11 @@
     "semantic-release": "17"
   },
   "devDependencies": {
-    "semantic-release": "17",
+    "@gliech/semantic-release-config-base": "file:./",
+    "@gliech/semantic-release-config-github-npm": "1",
     "@semantic-release/changelog": "5",
     "@semantic-release/git": "9",
-    "@gliech/semantic-release-config-base": "file:./"
+    "semantic-release": "17"
   },
   "publishConfig": {
     "access": "public"
