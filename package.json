@@ -8,15 +8,13 @@
   "main": "index.js",
   "files": [
     "index.js",
-    "note_generator_templates/",
     "shareable_config.yml",
     "commit_types.yml"
   ],
   "keywords": [],
   "dependencies": {
     "conventional-changelog-conventionalcommits": "4",
-    "js-yaml": "^4.1.0",
-    "nunjucks": "^3.2.2"
+    "js-yaml": "4"
   },
   "peerDependencies": {
     "semantic-release": "17"
