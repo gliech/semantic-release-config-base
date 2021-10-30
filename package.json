@@ -21,9 +21,9 @@
   },
   "devDependencies": {
     "@gliech/semantic-release-config-github-npm": "1.x",
-    "@semantic-release/changelog": "5.x",
-    "@semantic-release/git": "9.x",
-    "semantic-release": "17.x"
+    "@semantic-release/changelog": "6.x",
+    "@semantic-release/git": "10.x",
+    "semantic-release": "18.x"
   },
   "publishConfig": {
     "access": "public"
