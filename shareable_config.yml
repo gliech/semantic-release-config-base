@@ -11,7 +11,9 @@ branches:
 preset: conventionalcommits
 presetConfig:
   types: []
-releaseRules: []
+releaseRules:
+  - breaking: true
+    release: major
 writerOpts:
   footerPartial: |
     {{#if noteGroups}}
