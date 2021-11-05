@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/gliech/semantic-release-config-base/compare/v1.0.3...v1.0.4) (2021-11-05)
+
+
+### Bug Fixes
+
+* make breaking changes breaking ([36525e0](https://github.com/gliech/semantic-release-config-base/commit/36525e0eba5b7c3bb830467c1fe7be6c6190cfa3))
+
 ## [1.0.3](https://github.com/gliech/semantic-release-config-base/compare/v1.0.2...v1.0.3) (2021-10-30)
 
 
