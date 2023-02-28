@@ -13,7 +13,7 @@
   ],
   "keywords": [],
   "dependencies": {
-    "conventional-changelog-conventionalcommits": "4.x",
+    "conventional-changelog-conventionalcommits": "5.x",
     "js-yaml": "4.x"
   },
   "peerDependencies": {
@@ -23,7 +23,7 @@
     "@gliech/semantic-release-config-github-npm": "1.x",
     "@semantic-release/changelog": "6.x",
     "@semantic-release/git": "10.x",
-    "semantic-release": "18.x"
+    "semantic-release": "19.x"
   },
   "publishConfig": {
     "access": "public"
