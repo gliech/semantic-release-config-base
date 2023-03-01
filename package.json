@@ -23,7 +23,7 @@
     "@gliech/semantic-release-config-github-npm": "1.x",
     "@semantic-release/changelog": "6.x",
     "@semantic-release/git": "10.x",
-    "semantic-release": "19.x"
+    "semantic-release": "20.x"
   },
   "publishConfig": {
     "access": "public"
