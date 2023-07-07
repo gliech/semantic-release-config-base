@@ -1,3 +1,21 @@
+## [1.0.5](https://github.com/gliech/semantic-release-config-base/compare/v1.0.4...v1.0.5) (2023-07-07)
+
+
+### Bug Fixes
+
+* **deps:** widen dev-deps to allow co-development with npm plugin ([326ddbc](https://github.com/gliech/semantic-release-config-base/commit/326ddbc9523bb08173f799f961c061da0ea328c3))
+
+
+### Dependency Updates
+
+* bump conventional-changelog-conventionalcommits ([c5412d6](https://github.com/gliech/semantic-release-config-base/commit/c5412d679138f416db2b52393ab8b3f058714acc))
+
+
+### Continuous Integration
+
+* **deps:** bump actions/checkout from 2 to 3.1.0 ([c55db9d](https://github.com/gliech/semantic-release-config-base/commit/c55db9d5e9198d01becfdc9104d2ca2306e16524))
+* **deps:** bump actions/setup-node from 2 to 3.5.0 ([15d66de](https://github.com/gliech/semantic-release-config-base/commit/15d66de7e34cadc13e7f1dab34a541d4cb872a36))
+
 ## [1.0.4](https://github.com/gliech/semantic-release-config-base/compare/v1.0.3...v1.0.4) (2021-11-05)
 
 
