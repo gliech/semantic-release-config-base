@@ -13,7 +13,7 @@
   ],
   "keywords": [],
   "dependencies": {
-    "conventional-changelog-conventionalcommits": "5.x",
+    "conventional-changelog-conventionalcommits": "6.x",
     "js-yaml": "4.x"
   },
   "peerDependencies": {
