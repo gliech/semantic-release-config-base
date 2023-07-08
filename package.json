@@ -14,16 +14,11 @@
   "keywords": [],
   "dependencies": {
     "conventional-changelog-conventionalcommits": "6.x",
+    "semantic-release": "21.x",
     "js-yaml": "4.x"
   },
-  "peerDependencies": {
-    "semantic-release": ">=17.2.3 <22.0.0"
-  },
   "devDependencies": {
-    "@gliech/semantic-release-config-github-npm": "1.x",
-    "@semantic-release/changelog": "6.x",
-    "@semantic-release/git": "10.x",
-    "semantic-release": ">=17.2.3"
+    "@gliech/semantic-release-config-github-npm": "1.x"
   },
   "publishConfig": {
     "access": "public"
