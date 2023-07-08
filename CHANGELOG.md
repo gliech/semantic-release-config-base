@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/gliech/semantic-release-config-base/compare/v1.0.5...v1.0.6) (2023-07-08)
+
+
+### Dependency Updates
+
+* bump conventional-changelog-conventionalcommits ([841bd08](https://github.com/gliech/semantic-release-config-base/commit/841bd08142f221618cd1c79bba2cef7e844cce75))
+
 ## [1.0.5](https://github.com/gliech/semantic-release-config-base/compare/v1.0.4...v1.0.5) (2023-07-07)
 
 
