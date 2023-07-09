@@ -1,0 +1,10 @@
+---
+on:
+  push:
+name: main
+jobs:
+  release:
+    name: semantic release
+    uses: gliech/semantic-release-config-github-npm/.github/workflows/release.yml@v1
+    secrets:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

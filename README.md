@@ -1,15 +1,15 @@
 # [@gliech/semantic-release-config-base][1]
 
 This repository contains a semantic-release shareable configuration, which is
-supposed to serve as the basis for other shareable configurations. For that
-reason it does not define a list of plugins. It does however define various
-options that plugins defined in other shareable configurations will use, if
-they are not overwritten.
+supposed to serve as the basis for other shareable configurations. For this
+reason it does not define a list of plugins, but instead defines various options
+that plugins defined in other shareable configurations will use, if they are not
+overwritten.
 
 ## Features
 - Adheres closely to the [conventional commits][4] standard and uses the
   [conventional-changelog-conventionalcommits][5] preset to analyze commit
-  message but creates custom release and changelog messages more closely
+  message, but creates custom release and changelog messages more closely
   resembeling the semantic-release default format defined in the angular preset.
 - Defines a bunch of non-standard commit types and how to handle them. The
   general rule is that only actual changes to the main project code will trigger
@@ -18,7 +18,7 @@ they are not overwritten.
   pushed on its' own on a release branch, but is otherwise completely invisible.
   This is meant as a tool to create fixes for unreleased features without
   creating nonsensical changelog messages, or erasing development history by
-  literally amending commits.
+  actually amending commits.
 - Supports both **master** and **main** as repository default and release
   branch. Something that semantic-release as of major version 17 surprisingly
   does not do by default.

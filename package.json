@@ -20,7 +20,7 @@
     "js-yaml": "4.x"
   },
   "devDependencies": {
-    "@gliech/semantic-release-config-github-npm": "1.1.0-alpha.2"
+    "@gliech/semantic-release-config-github-npm": "^1.2.0"
   },
   "overrides": {
     "@gliech/semantic-release-config-github-npm": {
@@ -29,5 +29,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "release": {
+    "extends": ["@gliech/semantic-release-config-github-npm"]
   }
 }
