@@ -1,3 +1,10 @@
+# [1.1.0-alpha.2](https://github.com/gliech/semantic-release-config-base/compare/v1.1.0-alpha.1...v1.1.0-alpha.2) (2023-07-09)
+
+
+### Features
+
+* **ci:** use direct dependencies during self-release test ([5086b43](https://github.com/gliech/semantic-release-config-base/commit/5086b43ac14e63e74e254b0f601cb59bd11f364f))
+
 # [1.1.0-alpha.1](https://github.com/gliech/semantic-release-config-base/compare/v1.0.6...v1.1.0-alpha.1) (2023-07-08)
 
 
