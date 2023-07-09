@@ -1,3 +1,17 @@
+# [1.1.0](https://github.com/gliech/semantic-release-config-base/compare/v1.0.6...v1.1.0) (2023-07-09)
+
+
+### Features
+
+* **ci:** use direct dependencies during self-release test ([5086b43](https://github.com/gliech/semantic-release-config-base/commit/5086b43ac14e63e74e254b0f601cb59bd11f364f))
+* **deps:** move deps for shared plugins to config-base ([68ecf7d](https://github.com/gliech/semantic-release-config-base/commit/68ecf7defeeb132f78ec8076c4cfc1e5690bd437))
+* **deps:** use direct dependencies ([d5695e1](https://github.com/gliech/semantic-release-config-base/commit/d5695e1dca4e65eb551c67a28daa0be24b42fde7))
+
+
+### Continuous Integration
+
+* use reusable workflow from semantic-release-config-github-npm ([6b00d4c](https://github.com/gliech/semantic-release-config-base/commit/6b00d4c7be6924305d43dadb9dfc71aa483edef7))
+
 ## [1.0.6](https://github.com/gliech/semantic-release-config-base/compare/v1.0.5...v1.0.6) (2023-07-08)
 
 
