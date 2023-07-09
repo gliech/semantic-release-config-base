@@ -1,4 +1,3 @@
 ---
 extends:
-  - "./index.js"
   - "@gliech/semantic-release-config-github-npm"
