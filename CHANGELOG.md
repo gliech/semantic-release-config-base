@@ -1,3 +1,10 @@
+# [1.1.0-alpha.3](https://github.com/gliech/semantic-release-config-base/compare/v1.1.0-alpha.2...v1.1.0-alpha.3) (2023-07-09)
+
+
+### Features
+
+* **deps:** move deps for shared plugins to config-base ([68ecf7d](https://github.com/gliech/semantic-release-config-base/commit/68ecf7defeeb132f78ec8076c4cfc1e5690bd437))
+
 # [1.1.0-alpha.2](https://github.com/gliech/semantic-release-config-base/compare/v1.1.0-alpha.1...v1.1.0-alpha.2) (2023-07-09)
 
 
