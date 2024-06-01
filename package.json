@@ -13,7 +13,7 @@
   ],
   "keywords": [],
   "dependencies": {
-    "conventional-changelog-conventionalcommits": "7.x",
+    "conventional-changelog-conventionalcommits": "8.x",
     "@semantic-release/changelog": "6.x",
     "@semantic-release/git": "10.x",
     "semantic-release": "22.x",
