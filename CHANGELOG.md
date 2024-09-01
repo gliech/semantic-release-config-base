@@ -1,3 +1,11 @@
+## [1.1.2](https://github.com/gliech/semantic-release-config-base/compare/v1.1.1...v1.1.2) (2024-09-01)
+
+
+### Dependency Updates
+
+* bump conventional-changelog-conventionalcommits ([5a84180](https://github.com/gliech/semantic-release-config-base/commit/5a8418012b3f2f4f6129ebeb54e6cda2722c181d))
+* bump semantic-release from 22.0.5 to 24.0.0 ([4fdc77b](https://github.com/gliech/semantic-release-config-base/commit/4fdc77b0e390cc389bd99efcba99589cd15726d8))
+
 ## [1.1.1](https://github.com/gliech/semantic-release-config-base/compare/v1.1.0...v1.1.1) (2023-10-17)
 
 
